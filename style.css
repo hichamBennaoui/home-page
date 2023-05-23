@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* start navbar */
+.sc-img{
+    background-image:url("img/meeting-g51634d75a_640.jpg") ;  
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    gap: 40px;
+    
+}
+.logo{
+    width: 40px;
+
+}
+ul li{
+    display: inline-block;
+    text-decoration: none;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    margin: 0px 30px;
+} 
+
+
+.text{
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+}
+/* end navabar*/
+
+/*  start content*/
+.contenu{
+    
+    display: flex;
+    width: 100%;
+    height: 500px;
+    
+}
+.content h2{
+    letter-spacing: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.content h4{
+    letter-spacing: 5px;
+    margin-top: 10px;
+}
+.img1{
+    width: 500px;
+    height: 300px;
+    border-radius: 5%;
+}
+.img2{
+    width: 300px;
+    height: 250px;
+    border: 2px solid rgb(42, 46, 172) ;
+    border-radius: 5%;
+    
+}
+.contenu div{
+    margin: 20px;
+}
+
+
+.p{
+    text-align: center;
+}
+.text1 {
+    text-align: center;
+    color: rgb(108, 108, 198);
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+#disc{
+    font-size: 90px;
+}
+.div3{
+    display: flex;
+    background-image: cover;
+}
+.div3 div{
+    margin: 10px;
+    width: 100%;
+}
+.div3 img {
+   width: 380px;
+   border-radius: 5%;
+
+}
+.content{
+    background-image:url('img/2920626_ee04d0.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+}
+/* end content*/
+/* start footer*/
+.foot{
+    background-image: url('img/shark-3347787_640.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 200px;
+}
+.foot .social {
+    text-align: center;
+    color: black;
+    width: 600px;
+    
+}
+.foot .social a{
+    background-color: white;
+    font-size: 24px;
+    color: inherit;
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    margin-left: 20px;
+  
+}
+.foot p{
+    color: white;
+}
+.copyright {
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    margin-left: 200px;
+}
+samp{
+    font-size:large;
+}
+.adress{
+    width: 400px;
+    margin-right: 100px;
+    margin-top: 60px;
+}
+/* end footer*/
